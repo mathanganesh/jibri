@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.jitsi.jibri.webhooks.v1.WebhookClientTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.277 s - in org.jitsi.jibri.webhooks.v1.WebhookClientTest
