@@ -26,7 +26,7 @@ fun getFfmpegCommandLinux(ffmpegExecutorParams: FfmpegExecutorParams, sink: Sink
         "-r", ffmpegExecutorParams.framerate.toString(),
         "-s", ffmpegExecutorParams.resolution,
         "-thread_queue_size", ffmpegExecutorParams.queueSize.toString(),
-        "-i", ":0.0+0,0",
+        "-i", ":0.0",
         "-f", "alsa",
         "-thread_queue_size", ffmpegExecutorParams.queueSize.toString(),
         "-i", "plug:bsnoop",
